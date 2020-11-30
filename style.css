@@ -1,0 +1,87 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #556a31;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0px auto;
+    background-color: white;
+}
+
+.pageContent {
+    padding: 20px;
+}
+header {
+    background-image: url(img/lemons_header.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    position: relative;
+}
+
+header #menu {
+    width: 700px;
+    height: 120px;
+    position: absolute;
+    top: 125px;
+    left: 200px;
+}
+.headeradress, .headersinfo {
+    color: rgb(50, 65, 10);
+    font-weight: bold;
+    text-shadow: rgb(216, 216, 87) 2px 3px 4px;
+}
+
+.headeradress {
+    font-size: 40px;
+}
+
+.headersinfo {
+    font-size: 25px;
+    margin-left: 200px;
+}
+
+.leftblocks,  main {
+    height: 1500px;
+}
+
+.leftblocks {
+    width: 200px;
+    float: left;
+}
+
+ #left {
+    width: 160px;
+    height: 250px;
+    margin-top: 15px;
+    padding: 0px 20px;
+    float: left;
+}
+
+main {
+    padding: 0px 20px;
+}
+
+h4, aside > p {
+    margin: 10px 0px;
+}
+
+
+footer {
+    width: 800px;
+    height: 30px;
+    float: right;
+    position: relative;
+}
+
+.adress {
+    font-size: 13px;
+    position: absolute;
+    bottom: 0px;
+    left: 200px
+}
+
+.clearfix {
+    clear: both;
+}
